@@ -52,3 +52,8 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+#API_KEYを環境変数として管理する（Keyを外部流出させないための措置）
+gem 'dotenv-rails'
+#アプリケーション内でHTTPリクエストを投げたい場合に使うクラス
+gem 'httpclient'
