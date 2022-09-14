@@ -1,0 +1,3 @@
+..env.
+OPEN_WEATHER_MAP_API = 'e1ab716d1754b6bba8fb0c30f572cea1'
+URI = 'https://api.openweathermap.org/data/2.5/weather'
